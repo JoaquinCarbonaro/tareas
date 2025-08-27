@@ -1,0 +1,37 @@
+html,
+body {
+  height: 100%;
+}
+
+.error-container {
+  max-width: 520px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.codigo {
+  font-size: 5rem;
+  font-weight: 800;
+  margin: 0;
+  color: #dc3545;
+  line-height: 1;
+}
+
+.titulo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0.5rem 0 1rem;
+  color: #333;
+}
+
+.descripcion {
+  font-size: 1rem;
+  color: #6c757d; 
+  margin-bottom: 1.5rem;
+}
+
+.botones .btn {
+  font-size: 1rem;
+  padding: 10px;
+}

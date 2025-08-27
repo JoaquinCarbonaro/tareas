@@ -1,0 +1,28 @@
+html,
+body {
+  height: 100%;
+}
+
+.bienvenida-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.titulo {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.subtitulo {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.botones .btn {
+  font-size: 1rem;
+  padding: 10px;
+}

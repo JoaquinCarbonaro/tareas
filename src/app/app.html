@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <!-- nombre -->
+    <a class="navbar-brand" routerLink="/bienvenida">Mi App</a>
+
+    <!-- boton hamburguesa (responsive) -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- nav -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/bienvenida" routerLinkActive="active">Bienvenida</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/login" routerLinkActive="active">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/registro" routerLinkActive="active">Registro</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/sobre-mi" routerLinkActive="active">Sobre mí</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- inyeccion de servicio (componente) -->
+<main class="container my-4">
+  <router-outlet></router-outlet>
+</main>
